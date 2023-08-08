@@ -15,3 +15,4 @@
    - Provided an intuitive and interactive video playback experience.
    - Facilitated easy video consumption with standard playback controls.
    - Achieved compatibility with modern browsers for seamless video rendering.
+![image](https://github.com/harshit-choudhary798/Audio-Video-Tags/assets/111317199/b4c0a739-5f97-488d-8804-1ead5dfe6b3c)
