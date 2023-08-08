@@ -3,32 +3,66 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Audio and Video Example</title>
+    <!-- Include Bootstrap CSS from a CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 </head>
 <body>
-    <!-- AUDIO TAG -->
-    <!-- controls provide interface to control the audio -->
-    <!-- autoplay helps that it doesnt need to be manually started -->
-    <!-- loop once the audio is complete it restart the audio again -->
-    <audio controls autoplay loop>
-        <source src="http://commondatastorage.googleapis.com/codeskulptor-assets/Epoq-Lepidoptera.ogg">
-    </audio>
+    <div class="container text-center mt-5">
+        <h2>Audio and Video Example</h2>
 
-    <!-- VIDEO TAG -->
-    <!-- controls provide controls for video like play pause -->
-    <!-- loop muted autoplay="autoplay" keeps playing the video -->
-    <!-- loop muted autoplay="autoplay" control keeps playing the video and provide controlers-->
-    <video controls width="450px">
-        <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
-    </video>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Sample Audio</h5>
+                        <audio controls autoplay loop>
+                            <source src="http://commondatastorage.googleapis.com/codeskulptor-assets/Epoq-Lepidoptera.ogg">
+                        </audio>
+                        <p class="card-text">This is a sample audio that plays a looping sound.</p>
+                    </div>
+                </div>
+            </div>
 
-    <video  width="450px" loop muted autoplay="autoplay" controls>
-        <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
-    </video>
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Sample Video 1</h5>
+                        <video controls width="100%">
+                            <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+                        </video>
+                        <p class="card-text">This is a sample video with standard controls.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-    <video poster="D:\IMG_20230702_181622.jpg" width="450px" loop muted autoplay="autoplay" controls>
-        <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
-    </video>
+        <div class="row mt-3">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Sample Video 2</h5>
+                        <video width="100%" loop muted autoplay="autoplay" controls>
+                            <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+                        </video>
+                        <p class="card-text">This is another sample video with looping, muted autoplay, and controls.</p>
+                    </div>
+                </div>
+            </div>
 
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Sample Video 3</h5>
+                        <video   width="100%" loop muted autoplay="autoplay">
+                            <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+                        </video>
+                        <p class="card-text">This is a third sample video with a poster image, looping, muted autoplay with no  controls.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
 </body>
 </html>
