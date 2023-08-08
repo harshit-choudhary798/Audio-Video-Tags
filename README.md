@@ -1,6 +1,5 @@
 # Audio-Video-Tags
 
-Certainly, here are three key points about your project:
 
 1. Embedding Video:
    - Used the HTML `<video>` tag to seamlessly embed a video within the web page.
